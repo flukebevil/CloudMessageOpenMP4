@@ -28,6 +28,10 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".TVActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
         <service
             android:name=".MyFireBaseService"
             android:exported="false">
