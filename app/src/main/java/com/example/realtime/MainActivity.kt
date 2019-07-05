@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        FirebaseMessaging.getInstance().subscribeToTopic("video")
+        FirebaseMessaging.getInstance().subscribeToTopic("videoffffffx")
             .addOnCompleteListener { task ->
                 var msg = getString(R.string.msg_subscribed)
                 if (!task.isSuccessful) {
